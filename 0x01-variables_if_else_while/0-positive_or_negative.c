@@ -7,6 +7,7 @@
  * it is executed and print based on condition
  * Return: always 0 (success)
  */
+
 int main(void)
 
 {
@@ -16,12 +17,12 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 		printf("%d is positive\n", n);
-	if (else n == 0)
+	if (n == 0)
 		printf("%d is zero\n", n);
-
-	if (else n < 0);
+	if (n < 0)
 	{
 		printf("%d is negative\n", n);
-	return (0);
 	}
+	return (0);
+
 }
