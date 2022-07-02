@@ -3,7 +3,8 @@
 #include <stdio.h>
 
 /**
- * main-entry point
+ * main - Print the last digit of the random
+ * number stored in variable n
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -19,7 +20,7 @@ int main(void)
 	}
 	if (n == 0)
 	{
-		printf("Last digit of %d is %d and is 0\n", n, );
+		printf("Last digit of %d is %d and is 0\n", n);
 	}
 	if (n < 6 && n != 0)
 	{
