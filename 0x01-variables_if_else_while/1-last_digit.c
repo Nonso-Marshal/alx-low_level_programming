@@ -12,7 +12,7 @@ int main(void)
 	int last;
 
 	srand(time(0));
-	n = srand() - RAND_MAX / 2;
+	n = rand() - RAND_MAX / 2;
 	last = n % 10;
 
 	if (n == 0)
