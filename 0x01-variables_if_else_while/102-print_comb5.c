@@ -13,11 +13,11 @@ int main(void)
 	{
 		for (n = i + 1; n <= 99; n++)
 		{
-			putchar((i/10) + '0');
-			putchar((i%10) + '0');
+			putchar((i / 10) + '0');
+			putchar((i % 10) + '0');
 			putchar((32));
-			putchar((n/10) + '0');
-			putchar((n%10) + '0');
+			putchar((n / 10) + '0');
+			putchar((n % 10) + '0');
 
 			if(i/ 10 != 9 || i % 10 != 8)
 			{
