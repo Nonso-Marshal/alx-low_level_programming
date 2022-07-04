@@ -7,29 +7,25 @@
 
 int main(void)
 {
-	int i, j, k, l;
+	int i, n;
 
-	/* nest for loop inside another for loop */
-	for (i = 48; i <= 57; i++)
+	for (i = 0; i <= 98; i++)
 	{
-		for (j = 48; j <= 57; j++)
+		for (n = i + 1; n <= 99; n++)
 		{
-			for (k = 48; k <= 57; k++)
+			putchar((i/10) + '0');
+			putchar((i%10) + '0');
+			putchar((32));
+			putchar((n/10) + '0');
+			putchar((n%10) + '0');
+
+			if(i/ 10 != 9 || i % 10 != 8)
 			{
-				for (l = 49; l <= 57; l++)
-				{
-					putchar(i);
-					putchar(j);
-					putchar(44\n);
-					putchar(k);
-					putchar(l);
-					putchar(32\n);
-					putchar(44\n);
-				}
+				putchar(44);
+				putchar(32);
 			}
 		}
 	}
-	/* Print new line */
-	putchar('\n');
-	return (0);
-i}
+	putchar(10);
+	return(0);
+}
