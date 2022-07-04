@@ -1,4 +1,6 @@
+#include <stdlib.h>
 #include <stdio.h>
+#include <string.h>
 /**
  * main - Print all alphabet in lowercase and in reverse
  *
@@ -6,12 +8,15 @@
  */
 int main(void)
 {
-	char letter;
+	char stri[100] = "abcdefghijklmnopqrstuvwxyz";
+	int x = 0;
 
-	for (letter = 'z'; letter <= 'a'; letter++)
+	x = strlen(stri) - 1;
+	while (x >= 0)
 	{
-		putchar(letter);
+		putchar(stri[x]);
+		x--;
 	}
-	putchar ('\n');
+	putchar('\n');
 	return (0);
 }
