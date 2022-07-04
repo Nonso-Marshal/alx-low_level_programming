@@ -19,7 +19,7 @@ int main(void)
 			putchar((n / 10) + '0');
 			putchar((n % 10) + '0');
 
-			if(i/ 10 != 9 || i % 10 != 8)
+			if(i / 10 != 9 || i % 10 != 8)
 			{
 				putchar(44);
 				putchar(32);
