@@ -8,16 +8,15 @@ int main(void)
 {
 	int x;
 
-	for (x = 0; x <= '9'; x++)
+	for (x = 48; x <= 57; x++)
 	{
 		putchar(x);
+		if (x != 57)
+		{
+		putchar(44);
+	putchar(32);
+		}
 	}
-	for (x = 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, x++)
-	{
-		putchar(x; x && x);
-	}
-	putchar if (A = x + x, single digit);
-	
-		putchar ('\n');
-		return (0);
+	putchar(10);
+	return (0);
 }
