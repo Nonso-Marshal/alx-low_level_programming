@@ -21,7 +21,7 @@ int main(void)
 				if (i == 7 && n == 8 && j == 9)
 					continue;
 				putchar(',');
-				putchar('');
+				putchar(' ');
 			}
 		}
 	}
