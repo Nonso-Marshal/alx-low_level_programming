@@ -7,11 +7,11 @@
 
 int main(void)
 {
-	int lw = 'a';
+	char lw = 'a';
 
 	while  (lw <= 'z');
 
-	if (!'q' && 'e' lw)
+	if (lw !'q' && 'e' )
 	putchar (lw);
 	lw += 1;
 	putchar ('\n');
