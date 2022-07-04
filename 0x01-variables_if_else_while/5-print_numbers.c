@@ -5,12 +5,11 @@
 
 int main(void)
 {
-	int base 10 = '1';
-	
-	for (base 10 <= '9');
-
-	putchar (base 10);
-		base 10 += 1;
-		putchar ('\n');
-		return (0);
+	int x;
+	for (x = '0'; x <= '9'; x++)
+	{
+		putchar(x);
+	}
+	putchar('\n');
+	return (0);
 }
