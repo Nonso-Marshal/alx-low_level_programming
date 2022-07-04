@@ -9,7 +9,7 @@ int main(void)
 {
 	char lw = 'a';
 
-	while  (lw <= 'z');
+	while  (lw <= 'z')
 	{
 	if (lw !='q' && lw !='e')
 	putchar (lw);
