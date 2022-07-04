@@ -10,21 +10,21 @@ int main(void)
 	int i, j, k, l;
 
 	/* nest for loop inside another for loop */
-	for (i = 48; i <= 57\n; i++)
+	for (i = 48; i <= 57; i++)
 	{
-		for (j = 48; j <= 57\n; j++)
+		for (j = 48; j <= 57; j++)
 		{
-			for (k = 48; k <= 57\n; k++)
+			for (k = 48; k <= 57; k++)
 			{
-				for (l = 49; l <= 57\n; l++)
+				for (l = 49; l <= 57; l++)
 				{
 					putchar(i);
 					putchar(j);
-					putchar(44);
+					putchar(44\n);
 					putchar(k);
 					putchar(l);
-					putchar(32);
-					putchar(44);
+					putchar(32\n);
+					putchar(44\n);
 				}
 			}
 		}
