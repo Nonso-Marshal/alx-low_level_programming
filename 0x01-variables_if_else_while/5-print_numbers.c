@@ -7,7 +7,7 @@ int main(void)
 {
 	int base 10 = '1';
 	
-	while (base 10 <= '9');
+	for (base 10 <= '9');
 
 	putchar (base 10);
 		base 10 += 1;
