@@ -1,11 +1,10 @@
 #include <stdio.h>
 
 /**
- * main-find and prints the first 98 fibonacci numbers
+ * main - finds and prints the first 98 Fibonacci numbers,
  * starting with 1 and 2
  * followed by a new line
- * Description: print the first 98 fibonacci numbers
- * Return: 0 if successful
+ * Return: ALways 0 (Success)
  */
 int main(void)
 {
