@@ -1,4 +1,4 @@
-#include "main.h"
+#include "maini.h"
 
 /**
  * print_alphabet_x10 - print alphabet 10 times
@@ -13,7 +13,7 @@ void print_alphabet_x10(void)
 	while (I < 10)
 	{
 		c = 'a';
-		while ('c' <= 'z')
+		while (c <= 'z')
 		{
 			_putchar(c);
 			c++;
