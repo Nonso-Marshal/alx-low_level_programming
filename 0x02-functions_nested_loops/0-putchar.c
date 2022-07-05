@@ -2,10 +2,9 @@
 
 /**
  * Main - Entry Point
- *
+ *  
  * Return: 0 If successful
  */
-
 int main(void)
 {
 	_putchar('_');
