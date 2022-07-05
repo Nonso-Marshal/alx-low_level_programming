@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * Main - Entry Point
+ * main - Entry Point
  *
  * Return: 0 If successful
  */
