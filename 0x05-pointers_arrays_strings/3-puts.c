@@ -5,7 +5,7 @@
  * @str: char array string type
  * Description: Can only use _putchar
  */
-void _put(char *str)
+void var(char *str)
 {
 	int i;
 
