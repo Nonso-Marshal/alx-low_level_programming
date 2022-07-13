@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * Reset to 98 - reset argument to 98
+ * Reset_to_98 - reset argument to 98
  * @n - pointer
  * Return: void
  */
