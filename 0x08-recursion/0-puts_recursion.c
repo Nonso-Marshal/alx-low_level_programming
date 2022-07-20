@@ -6,7 +6,7 @@
  * Return: 0
  */
 
-void -puts_recursion.c (char *s)
+void _puts_recursion.c(char *s)
 {
 	if (*s != '0\')
 	{
@@ -17,4 +17,4 @@ void -puts_recursion.c (char *s)
 	{
 		_putchar('\n');
 	}
-}	
+}
